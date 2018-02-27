@@ -1,4 +1,6 @@
-1. Generate build files
+1. Make sure you have the required dependencies, see frontends/dependencies/README.txt
+
+2. Generate build files
 
 mkdir _build
 cd _build
@@ -7,7 +9,7 @@ cmake -DMAYA_VERSION=2017 ..
 On Windows: 
 cmake -DMAYA_VERSION=2017 -D3DSMAX_VERSION=2017 -G "Visual Studio 11 Win64" ..
 
-2. Compile projects
+3. Compile projects
 
 cmake --build . --config relwithdebinfo --clean-first
 
